@@ -1,10 +1,17 @@
-# Basic cmake project
+# Computing [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
+Short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.
 
-Working with vscode and the version 3.21.1 of cmake
-Just save CMakeLists to build cache in the build directory.
+Can be usefull for retrieval informations.
 
+## Requirement
+Need cmake 3.21.1 and c++20 installed.
 ## Scripts
-
 - cmake --build ./build
-- .\build\src\Basic_run.exe
-- .\build\tests\Basic_tst.exe
+- .\build\src\TfIdf_run.exe
+- .\build\tests\TfIdf_tst.exe
+
+## Roadmap
+- [x] Count words in directory
+- [ ] Compute the TF and IDF
+
+> Fork of [Basic cmake project](https://github.com/adrien-zinger/basic_cpp_cmake)
