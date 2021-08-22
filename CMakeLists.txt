@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19)
+cmake_minimum_required(VERSION 3.21.1)
 
 project(TfIdf)
 set(CMAKE_CXX_STANDARD 20)
