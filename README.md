@@ -8,10 +8,10 @@ Need cmake 3.21.1 and c++20 installed.
 ## Scripts
 - cmake --build ./build
 - .\build\src\TfIdf_run.exe
-- .\build\tests\TfIdf_tst.exe
 
 ## Roadmap
 - [x] Count words in directory
+- [x] Multithreading lecture
 - [ ] Compute the TF and IDF
 
 > Fork of [Basic cmake project](https://github.com/adrien-zinger/basic_cpp_cmake)
