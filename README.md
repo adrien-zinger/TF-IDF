@@ -3,15 +3,13 @@ Short for term frequency–inverse document frequency, is a numerical statistic 
 
 Can be usefull for retrieval informations.
 
-## Requirement
-Need cmake 3.21.1 and c++20 installed.
+## Versions
+cmake 3.21.1
+clang version 12.0.5
 ## Scripts
 - cmake --build ./build
 - .\build\src\TfIdf_run.exe
-
-## Roadmap
-- [x] Count words in directory
-- [x] Multithreading lecture
-- [ ] Compute the TF and IDF
+- cp ./build/src/TfIdf_run .
+- ./TfIdf_run resources bonjour
 
 > Fork of [Basic cmake project](https://github.com/adrien-zinger/basic_cpp_cmake)
