@@ -12,4 +12,9 @@ clang version 12.0.5
 - cp ./build/src/TfIdf_run .
 - ./TfIdf_run resources bonjour
 
+## Roadmap
+- Move code in a lib
+- In the pseudo "threadpool" try to wait for the smallest file using stat.h
+- Add command to get full directory word frequency
+
 > Fork of [Basic cmake project](https://github.com/adrien-zinger/basic_cpp_cmake)
